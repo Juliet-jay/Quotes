@@ -1,0 +1,32 @@
+
+  <h4 class="text-center">Create a new Quote</h4>
+  <hr>
+  <form (ngSubmit)='submitQuote()'  #quoteForm='ngForm'>
+    <div class="form-group">
+
+      <label for="name">Name</label>
+      <input type="text" required class="form-control" id="name" name="name">
+      <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+        <p>Name is required</p>
+      </div>
+    </div>
+    <div class="form-group">
+
+      <label for="description">Add a new Quote</label>
+      <textarea class="form-control" id="description" rows="4" name=
+      'description'required></textarea>
+      <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
+        <p>new quote is required</p>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="complete">Date</label>
+      <input type='date' id="complete" required>
+      <div [hidden]="completeDate.valid || completeDate.pristine" name='date' class="alert alert-danger">
+        <p>Date required</p>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-info">Add a quote</button>
+  </form>
+
+
