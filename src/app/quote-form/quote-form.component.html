@@ -13,8 +13,7 @@
     <div class="form-group">
 
       <label for="description">Add a new Quote</label>
-      <textarea class="form-control" id="description" rows="4" name=
-      'description'required></textarea>
+      <textarea class="form-control" id="description" rows="4" name='description'required></textarea>
       <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
         <p>new quote is required</p>
       </div>
@@ -22,7 +21,7 @@
     <div class="form-group">
 
         <label for="name">Name</label>
-        <input type="text" required class="form-control" id="name" name="name">
+        <input type="text" required class="form-control" id="name" #author='ngModel' [(ngModel)]="newQuote.name" name="name">
         <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
           <p>Name is required</p>
         </div>
