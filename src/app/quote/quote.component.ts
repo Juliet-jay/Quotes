@@ -8,12 +8,12 @@ import{Quote} from '../quote';
 export class QuoteComponent implements OnInit {
 
  quotes:Quote[] = [
-    new Quote(1,'Eric','nothing last for ever',new Date(2019,3,7)),
-    new Quote(2,'Do it with passion or not at all','the best is yet to come',new Date(2019,5,1)),
-    new Quote(3,'She believed she could, so she did','keep moving forward',new Date(2019,1,7)),
-    new Quote(4,'At the end of hardship comes happiness','better things are yet to come',new Date(2019,2,9)),
-    new Quote(5,'Your dreams are valid','keep dreaming',new Date(2019,7,8)),
-    new Quote(6,'you can do anything you set your mind to','keep pushing',new Date(2019,10,4)),
+    new Quote(1,'Brian mknight quote','nothing last for ever',new Date(2019,3,7)),
+    new Quote(2,'james bond quote','the best is yet to come',new Date(2019,5,1)),
+    new Quote(3,'micheal smith quote','keep moving forward',new Date(2019,1,7)),
+    new Quote(4,'miles monroe quote','better things are yet to come',new Date(2019,2,9)),
+    new Quote(5,'lupita nyongo quote','keep dreaming',new Date(2019,7,8)),
+    new Quote(6,'julie muthee quote','keep pushing',new Date(2019,10,4)),
     
   ];
    toggleDetails(index){

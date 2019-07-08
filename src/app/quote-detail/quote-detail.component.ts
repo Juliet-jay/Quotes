@@ -13,6 +13,13 @@ export class QuoteDetailComponent implements OnInit {
   
   quoteDelete(complete:boolean){
     this.isComplete.emit(complete);
+  }
+    quoteDownvote(complete:boolean){
+      this.isComplete.emit(complete);
+    }
+
+    quoteUpvote(complete:boolean){
+      this.isComplete.emit(complete);
 
   }
   quoteComplete(complete:boolean){
