@@ -1,4 +1,6 @@
 .container-fluid{
     margin: 20px auto;
     border-right-width: 10px;
+    border-radius: 5%
+    
 }
