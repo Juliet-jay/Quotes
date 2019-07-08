@@ -10,21 +10,21 @@ export class QuoteDetailComponent implements OnInit {
 
   @Input()quote:Quote;
   @Output()isComplete = new EventEmitter<boolean>();
+  @Output() isLiked=new EventEmitter<boolean>();
+  @Output() isDisLiked=new EventEmitter<boolean>();
   
   quoteDelete(complete:boolean){
     this.isComplete.emit(complete);
   }
-    quoteDownvote(complete:boolean){
-      this.isComplete.emit(complete);
+    downvote(dislike:boolean){
+      this.isDisLiked.emit(dislike)
     }
 
-    quoteUpvote(complete:boolean){
-      this.isComplete.emit(complete);
+    upvote(liked:boolean){
+    this.isLiked.emit(liked)
 
   }
-  quoteComplete(complete:boolean){
-    this.isComplete.emit(complete);
-  }
+
   constructor() { }
 
   ngOnInit() {
