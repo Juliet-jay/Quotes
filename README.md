@@ -1,27 +1,38 @@
 # Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
+Quotes
+This project was generated with Angular CLI version 6.1.2.
 
-## Development server
+Quotes Developer
+juliet k muthee
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Project name
+Quotes
 
-## Code scaffolding
+Description
+A web based angular application that allows user to publish his best quotes, and delete at will. The application tracks the time of publication and the time elapsed since the publication.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Specifications
+The user creates a new quote by inputting in the respective data field, the user then hits Add Quote button to publish the quote which gets added to the right division of your screen, just below the preceding quotes.
 
-## Build
+To view the quote and its details, the user hits on the toggle quote details button, a double click shows and hides the quote and respective details.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+You can vote by either Like or Unlike as well as see when the quote was published.
 
-## Running unit tests
+It allows the user to delete a quote by hitting the delete quotes button.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Setup/Installation Requirements
+Internet connection
 
-## Running end-to-end tests
+Angular and node installations
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Link to deployed page:
+https://JOFLIX.github.io/Wise-Quotes/
 
-## Further help
+Technologies used
+Angular8, HTML5, CSS3, Bootstrap v4.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+License and terms of use
+MIT License this application's source code is free for any open source projects
+
+©juliet muthee 2019 | Moringa School
