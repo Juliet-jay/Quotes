@@ -27,7 +27,7 @@ Internet connection
 Angular and node installations
 
 Link to deployed page:
-https://JOFLIX.github.io/Wise-Quotes/
+https://Juliet-jay.github.io/Quotes/
 
 Technologies used
 Angular8, HTML5, CSS3, Bootstrap v4.
