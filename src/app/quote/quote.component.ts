@@ -43,6 +43,19 @@ export class QuoteComponent implements OnInit {
     }
   }
 
+  upvoteQuote(liked,index){
+    if(liked){
+      this.quotes[index].upvote+=1;
+    }
+  }
+
+  downvoteQuote(disliked,index){
+    if(disliked){
+      this.quotes[index].downvote+=1;
+    }
+
+  }
+
 
 
   constructor() {
